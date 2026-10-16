@@ -1,0 +1,18 @@
+{
+  "nota": "DATOS FICTICIOS PARA DEMOSTRACIÓN, NO PROVIENEN DE INSTAGRAM",
+  "usuario": "perfil_demo",
+  "url": "https://www.instagram.com/perfil_demo/",
+  "nombre": "Perfil de demostración",
+  "biografia": "Cuenta ficticia para enseñar la estructura del proyecto",
+  "categoria": null,
+  "enlaces_externos": [],
+  "imagen_perfil_url": null,
+  "verificado": null,
+  "publicaciones": 20,
+  "seguidores": 1200,
+  "seguidos": 130,
+  "conteos_aproximados": {"publicaciones": false, "seguidores": true, "seguidos": false},
+  "fuentes": {"publicaciones": "demo", "seguidores": "demo", "seguidos": "demo"},
+  "estado_lectura": "demo",
+  "fecha_observacion_utc": null
+}

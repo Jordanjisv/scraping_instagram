@@ -1,0 +1,10 @@
+# Formato de finales de línea coherente en GitHub, Windows y Linux
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.html text eol=lf

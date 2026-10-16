@@ -1,0 +1,5 @@
+# Dependencias para Python 3.13; no se requieren API de Instagram o Meta.
+playwright==1.64.0
+beautifulsoup4==4.15.0
+streamlit>=1.40,<2
+pandas>=2.2,<3

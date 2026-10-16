@@ -1,0 +1,44 @@
+# Entornos, temporales y editor
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sesiones y credenciales: NUNCA compartir
+.env
+.env.*
+!.env.example
+*.secret
+*.cookie
+cookies*.json
+storage_state*.json
+*auth_state*.json
+playwright/.auth/
+PlaywrightProfiles/
+*session*.json
+*.har
+
+# Datos reales y pruebas de navegador
+/resultados/
+/respaldo*/
+/backups/
+/test-results/
+/playwright-report/
+*.trace.zip
+*.webm
+*.log
+*.tmp
+
+# Archivos diagnósticos con posible contenido ajeno
+captura_*.png
+debug_*.html
+diagnostico_*.html
+
+# Paquetes temporales de pasos del desarrollo
+paso_*.zip
