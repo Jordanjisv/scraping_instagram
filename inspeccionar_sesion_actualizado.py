@@ -11,7 +11,7 @@ from scraper.desplazamiento import desplazar_hasta_objetivo
 from scraper.urls import normalizar_url_publicacion
 
 URL = "https://www.instagram.com/alondra_cgp/"
-PERFIL = Path("D:/PlaywrightProfiles/InstagramPractica")
+PERFIL = Path.home() / "InstagramScraper" / "ChromeProfile"
 OBJETIVO = 50
 MAX_DESPLAZAMIENTOS = 12
 

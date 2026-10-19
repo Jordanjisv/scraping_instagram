@@ -27,7 +27,7 @@ RESULTADOS = BASE / "resultados"
 RUTA_ENLACES = RESULTADOS / "enlaces_publicaciones.json"
 RUTA_DETALLES = RESULTADOS / "detalles_publicaciones.json"
 RUTA_METRICAS = RESULTADOS / "metricas_verificadas.json"
-PERFIL_CHROME = Path("D:/PlaywrightProfiles/InstagramPractica")
+PERFIL_CHROME = Path.home() / "InstagramScraper" / "ChromeProfile"
 
 
 def cargar_json(ruta: Path, defecto):

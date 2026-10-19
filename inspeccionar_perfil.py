@@ -18,7 +18,7 @@ BASE = Path(__file__).resolve().parent
 def main():
     parser = argparse.ArgumentParser(description="Información visible de un perfil autorizado")
     parser.add_argument("--usuario", default="alondra_cgp", help="Usuario sin arroba")
-    parser.add_argument("--perfil-chrome", default=os.getenv("IG_CHROME_PROFILE", "D:/PlaywrightProfiles/InstagramPractica"))
+    parser.add_argument("--perfil-chrome", default=os.getenv("IG_CHROME_PROFILE", str(Path.home() / "InstagramScraper" / "ChromeProfile" )))
     parser.add_argument("--diagnostico", action="store_true", help="Ver fuentes sin guardar HTML")
     args = parser.parse_args()
     if not re.fullmatch(r"[A-Za-z0-9._]{1,30}", args.usuario):

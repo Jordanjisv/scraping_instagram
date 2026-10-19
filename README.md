@@ -23,6 +23,14 @@ py -3.13 -m venv venv
 .\venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
+## Primera ejecución en otra computadora
+
+Si Instagram requiere autenticación, ejecuta:
+
+```powershell
+.\venv\Scripts\python.exe iniciar_sesion.py
+```
+
 ## Ejecución
 
 ```powershell
